@@ -15,5 +15,5 @@ home.html - HTML file containing the UI for the home page to enter the user revi
 
 result.html - HTML file containing UI for the result predicted user rating based on the input user review
 
-styles.css - Stylesheet for the webpade designed
+styles.css - Stylesheet for the webpage designed
 
