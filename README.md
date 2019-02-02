@@ -33,7 +33,11 @@ OVERVIEW:
 • Created a web application and deployed it on docker to find the predicted user rating based on the input user reveiw text.
 
 Language: Python
+
 Libraries used : scikit-learn, statsmodels, nltk, wordcloud, surprise, networkx, pandas, numpy, matplotlib, seaborn
+
 Recommender System Techniques: Content-Based Recommendation and Collaborative Filtering
+
 NLP: Tokenization, POS tagging, Stemming, Lemmatization, Bag of Words, ngrams
+
 Data Visualization: Tableau and Python Libraries
