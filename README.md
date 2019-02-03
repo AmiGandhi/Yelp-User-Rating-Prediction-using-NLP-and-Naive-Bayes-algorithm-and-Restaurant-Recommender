@@ -15,7 +15,7 @@
 
 Language: Python
 
-Libraries used : scikit-learn, statsmodels, nltk, wordcloud, surprise, networkx, pandas, numpy, matplotlib, seaborn
+Libraries used : scikit-learn, statsmodels, nltk, wordcloud, surprise, networkx, flask, pandas, numpy, matplotlib, seaborn
 
 Recommender System Techniques: Content-Based Recommendation and Collaborative Filtering
 
