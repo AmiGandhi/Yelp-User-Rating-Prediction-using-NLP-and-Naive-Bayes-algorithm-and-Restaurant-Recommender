@@ -1,6 +1,30 @@
-The repository contains all the required files and the data for performing User Rating Prediction and Restaurant Recommendation.
+# OVERVIEW:
 
-The file structure is as follows: User_Rating_Prediction_using_NLP_and_Restaurant_Recommendation - Copy.ipynb - This fle contains the code for User rating prediction and restaurant recommendation.
+• Predicted user ratings by implementing NLP on yelp user reviews and recommended food related restaurants to the user. 
+• Examined user review text with various techniques involved in text mining and text analysis
+• Handled imbalanced dataset using SMOTE technique for the positively skewed data in order to improve the accuracy. 
+• Predicted user ratings on a baseline model where only punctuation's in the review is removed and compared to pre-processed model consisting of entire text preprocessing on user reviews
+• Trained the model to predict ratings using Naïve Bayes Algorithm and evaluated the performance based on confusion matrix and classification report consisting of precision, recall and f1-measure
+• Arrived at a conclusion that baseline model predicts user rating better than another model which proved that it is not always necessary to pre-process text before making any predictions and it completely depends on the data that we work on.
+
+• Further, predicted the user ratings for food related restaurants using various models like BaselineOnly, KNNBaseline (user-based and item-based collaborative filtering method) and matrix factorization methods like Singular-Value Decomposition (SVD) and SVDpp. 
+• Evaluated the performance by calculating the average RMSE and MAE on 3-fold cross validation. 
+• Implemented Review based restaurant recommendation to recommend top-N restaurants to the user.
+
+• Created a web application using flask to find the predicted user rating based on the input user reveiw text.
+
+Language: Python
+
+Libraries used : scikit-learn, statsmodels, nltk, wordcloud, surprise, networkx, pandas, numpy, matplotlib, seaborn
+
+Recommender System Techniques: Content-Based Recommendation and Collaborative Filtering
+
+NLP: Tokenization, POS tagging, Stemming, Lemmatization, Bag of Words, ngrams
+
+Data Visualization: Tableau and Python Libraries
+
+### The file structure is as follows: 
+User_Rating_Prediction_using_NLP_and_Restaurant_Recommendation - Copy.ipynb - This fle contains the code for User rating prediction and restaurant recommendation.
 
 YELP_EDA.ipynb - This file contains the Exploratory Data Analysis performed on the yelp dataset before making any predictions or recommendations to have an idea of the data available.
 
@@ -16,28 +40,3 @@ home.html - HTML file containing the UI for the home page to enter the user revi
 result.html - HTML file containing UI for the result predicted user rating based on the input user review
 
 styles.css - Stylesheet for the webpage designed
-
-OVERVIEW:
-
-• Predicted user ratings by implementing NLP on yelp user reviews and recommended food related restaurants to the user. 
-• Examined user review text with various techniques involved in text mining and text analysis
-• Handled imbalanced dataset using SMOTE technique for the positively skewed data in order to improve the accuracy. 
-• Predicted user ratings on a baseline model where only punctuation's in the review is removed and compared to pre-processed model consisting of entire text preprocessing on user reviews
-• Trained the model to predict ratings using Naïve Bayes Algorithm and evaluated the performance based on confusion matrix and classification report consisting of precision, recall and f1-measure
-• Arrived at a conclusion that baseline model predicts user rating better than another model which proved that it is not always necessary to pre-process text before making any predictions and it completely depends on the data that we work on.
-
-• Further, predicted the user ratings for food related restaurants using various models like BaselineOnly, KNNBaseline (user-based and item-based collaborative filtering method) and matrix factorization methods like Singular-Value Decomposition (SVD) and SVDpp. 
-• Evaluated the performance by calculating the average RMSE and MAE on 3-fold cross validation. 
-• Implemented Review based restaurant recommendation to recommend top-N restaurants to the user.
-
-• Created a web application and deployed it on docker to find the predicted user rating based on the input user reveiw text.
-
-Language: Python
-
-Libraries used : scikit-learn, statsmodels, nltk, wordcloud, surprise, networkx, pandas, numpy, matplotlib, seaborn
-
-Recommender System Techniques: Content-Based Recommendation and Collaborative Filtering
-
-NLP: Tokenization, POS tagging, Stemming, Lemmatization, Bag of Words, ngrams
-
-Data Visualization: Tableau and Python Libraries
